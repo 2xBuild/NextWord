@@ -20,7 +20,7 @@ export default function Footer() {
                         >
                             void.
                         </a>
-                        {" "} Source Code on <a href="https://github.com/2xBuild/games" target="_blank"><Github/></a>
+                        {" "} Source Code on <a href="https://github.com/2xBuild/NextWord" target="_blank"><Github/></a>
                     </p>
                     <p className="font-mono text-xs text-white/40">
                         © {new Date().getFullYear()}. All rights reserved.
