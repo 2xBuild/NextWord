@@ -1,1 +1,1 @@
-export const BACKEND_SERVER= "http://localhost:8080"
+export const BACKEND_SERVER = "ws://nextword-server-production.up.railway.app"
