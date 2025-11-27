@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Word Game",
-  description: "Word Game",
+  title: "Next Word",
+  description: "Words chaining game.",
 };
 
 export default function RootLayout({

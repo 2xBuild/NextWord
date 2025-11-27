@@ -16,6 +16,7 @@ export default function CreateRoomForm({ onCreateRoom }: CreateRoomFormProps) {
         difficulty: "medium",
         timeDecreaseEnabled: true,
         difficultyIncrease: true,
+        rewardByWordLength: true,
     });
 
     const handleSubmit = () => {

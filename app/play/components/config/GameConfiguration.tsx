@@ -84,6 +84,16 @@ export default function GameConfiguration({
                             updateConfig({ difficultyIncrease: !config.difficultyIncrease })
                         }
                     />
+
+                    {/* Reward by Word Length */}
+                    <ToggleSwitch
+                        title="Reward Points by Word Length"
+                        description="Award more points for longer words"
+                        enabled={config.rewardByWordLength}
+                        onToggle={() =>
+                            updateConfig({ rewardByWordLength: !config.rewardByWordLength })
+                        }
+                    />
                 </div>
             </div>
         </div>
