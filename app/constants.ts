@@ -1,1 +1,1 @@
-export const BACKEND_SERVER = "ws://nextword-server-production.up.railway.app"
+export const BACKEND_SERVER = "wss://nextword-server-production.up.railway.app"
